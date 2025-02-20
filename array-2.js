@@ -21,4 +21,4 @@ const real_another_array=another_array.flat(Infinity);
 console.log(real_another_array);
 
 console.log(Array.from("Deepanker"));
-console.log(Array.from({name:"JavaScript"}));
+console.log(Array.from({name:"JavaScript"}));  //Interesting Fact

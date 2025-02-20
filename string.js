@@ -1,10 +1,11 @@
 const name = "Deepanker";
+const name2 = "Deepanker";
 const rank = 1;
 
 console.log(name + rank);
 
 console.log(`This is my ${rank}`);
-console.log(name[0]);
+console.log(name2[0]);
 
 console.log(name.charAt(2));
 console.log(name.indexOf('e'));
