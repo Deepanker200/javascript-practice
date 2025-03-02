@@ -23,7 +23,7 @@ coding.forEach((item, index, arr) => {
     console.log(item, index, arr);
 })
 
-myCoding = [
+let myCoding = [
     {
         languageName: "javascript",
         languageFileName: "js"
