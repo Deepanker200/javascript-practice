@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Part 5</title>
+</head>
+
+<body>
+    <ul class="language">
+        <li>Python</li>
+    </ul>
+
+    <div class="practice">
+
+    </div>
+
+</body>
+
+<script>
+    function addLanguage(langName) {
+        const li = document.createElement('li');
+        li.innerHTML = `${langName}`;
+        document.querySelector('.language').appendChild(li);
+    }
+
+    function addOptionsLang(langName) {
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(langName));
+        document.querySelector('.language').appendChild(li)
+    }
+
+    addLanguage("Ruby")
+    addOptionsLang("Java")
+
+    //Edit
+
+    const secondLang = document.querySelector('li:nth-child(2)');
+    // secondLang.innerHTML="HTML"
+    const newLi = document.createElement('li');
+    newLi.textContent = "Css";
+    secondLang.parentNode.replaceChild(newLi, secondLang);
+
+
+    const prac = () => {
+        const a = document.querySelector('.practice');
+        // a.appendChild(document.createTextNode('dsa'));
+        // a.setAttribute('class','sdadsadsa')
+        console.log(a)
+        const element = document.querySelector('.practice');
+
+        // Add a class without removing existing ones
+        element.classList.add('new-class');
+        console.log(element);
+        
+    }
+
+    prac()
+
+</script>
+
+</html>
