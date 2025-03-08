@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <ul>
+    <ul id="images">
         <li><img src="../images/image.png" id="img1" width="300px" height="200px"></li>
         <li><img src="../images/image2.png" id="img2" width="300px" height="200px"></li>
         <li><img src="../images/image3.png" id="img3" width="300px" height="200px"></li>
@@ -21,6 +21,29 @@
 
 
 <script>
+
+    // document.getElementById('images').addEventListener('click', function (e) {
+    //     console.log("clicked inside the ul")
+    // },false)
+
+    // document.getElementById('img1').addEventListener('click', function (e) {
+    //     console.log("Image 1 clicked")
+    //     e.stopPropagation();
+    // },false)
+
+    document.getElementById('images').addEventListener('click', function (e) {
+
+        // console.log(e.target.parentNode);
+        console.log(e.target.tagName);
+        if (e.target.tagName === 'IMG') {
+            let removeIt = e.target.parentNode
+            removeIt.remove();
+        }
+
+        // removeIt.parentNode.removeChild(removeIt);
+    }, false)
+
+
 </script>
 
 </html>
