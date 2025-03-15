@@ -1,5 +1,4 @@
 
-createUser
 function SetUsername(username) {
 
     //complex DB calls
