@@ -58,4 +58,4 @@ const obj1 = (num1, num2) =>  ({username:"Deepanker"});
 
 console.log(obj1(2,4));
 // console.log(addTwo(3,4));
-// console.log(addTwo2(13,4));
+console.log(addTwo2(13,4));
