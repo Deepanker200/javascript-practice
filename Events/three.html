@@ -11,25 +11,31 @@
     <h1>Set Interval</h1>
     <button id="start">Start</button>
     <button id="stop">Stop</button>
+
 </body>
 
 <script>
+    let intervalId = null;
+
     const sayDate = function (str) {
         console.log(str, Date.now());
-    }
-
-    let intervalId;
+    };
 
     document.querySelector('#start').addEventListener('click', () => {
-        intervalId = setInterval(sayDate, 1000, 'hi');
+        if (intervalId === null) {
+            intervalId = setInterval(sayDate, 1000, 'hi');
+            console.log("Interval started:", intervalId);
+        }
     });
 
-    document.querySelector('#stop').addEventListener('click', (e) => {
-        console.log(e);
-        clearInterval(intervalId);
-        interValId = null;
+    document.querySelector('#stop').addEventListener('click', () => {
+        if (intervalId !== null) {
+            clearInterval(intervalId);
+            console.log("Interval stopped:", intervalId);
+            intervalId = null;
+        }
+    });
 
-    })
 
 
 </script>

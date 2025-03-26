@@ -2,9 +2,9 @@
 
 const isUserloggedIn = true
 const temp = 41
-// if(2==="2"){
-//     console.log("Executed");
-// }
+if(2==="2"){
+    console.log("Executed");        //Not executed
+}
 
 if (temp === 41) {
     console.log("Less than 50")
