@@ -6,9 +6,9 @@ const myNums = [1, 2, 3]
 //     return acc + currval;       //this becomes accumulator(acc)
 // },0)
 
-// const myTotal = myNums.reduce((acc, curr) => acc + curr, 0)
+const myTotal = myNums.reduce((acc, curr) => acc + curr, 0)
 
-// console.log(myTotal);
+console.log(myTotal);
 
 
 const shoppingCart = [
