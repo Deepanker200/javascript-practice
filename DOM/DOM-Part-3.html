@@ -6,7 +6,11 @@
     <title>DOM Part 3</title>
 </head>
 <body>
-    
+    <div class="new">dsa</div>
+    <div class="new2">dsa</div>
+    <div class="new3">dsa</div>
+
+    <div id="container"></div>
 </body>
 
 <script>
@@ -17,12 +21,27 @@
     div.style.backgroundColor="green"
     div.style.padding="10px"
     // div.innerText="Hello World"
-    document
     const addText=document.createTextNode("New Method");
     div.appendChild(addText);
     console.log(div);
-
+    
     document.body.appendChild(div);
     
+    
+    function abcd(){
+        
+        document.getElementsByClassName('new')[0].innerHTML="<b>HEllo world</b>"    //Remember: Use index here
+        document.querySelector('.new2').innerHTML="<b>HEllo world222</b>"    
+        document.querySelector('.new3').innerText="ggggggg"
+    }
+
+
+    let parent = document.getElementById("container");
+let newDiv = document.createElement("div");
+newDiv.textContent = "Hello";
+parent.append(newDiv, " World!"); // ✅ Works fine (adds both text and element)
+
+    abcd()
+
 </script>
 </html>
