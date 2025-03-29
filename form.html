@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <label>Username</label>
+        <input name="user"  id="user" type="text">
+
+        <label>Password</label>
+        <input name="password"  id="password" type="password">
+
+<button type="submit">
+    Click here to submit
+</button>
+    </form>
+</body>
+
+<script>
+
+let form =document.querySelector('form');
+
+form.addEventListener('submit',()=>{
+    let user = document.querySelector('#user').value;
+    let password2 = document.querySelector('#password').value;
+    console.log(user,password2);
+    // alert(user,password2);           //Aler takes only one argument
+    alert("Username: " + user + "\nPassword: " + password2); // Concatenating values
+
+})
+</script>
+
+</html>
