@@ -13,11 +13,13 @@
 
 </body>
 <script>
-    const sayDeepanker = function () {
+    const sayDeepanker = function (str) {
         console.log("Deepanker");
+        // console.log(`${str}, Deepanker`);
     }
 
     setTimeout(sayDeepanker, 2000)
+    // setTimeout(sayDeepanker, 2000,"Hello")
 
     const changeText = function () {
         document.querySelector('h1').innerHTML = "Js Practice"
