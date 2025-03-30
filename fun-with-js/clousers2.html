@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+<script>
+    function x(){
+        var a=16;
+        function y(){
+            console.log(a);
+        }
+        a=100
+        return y
+    //    return y();      // if i write function then it will not print
+    }
+
+    var z=x()
+    console.log(z);     //z is reference        z is printing the whole function
+    z()
+
+    // console.log(x());
+
+    // function z() {
+    //     var b = 900;
+    //     function x() {
+    //         var a = 7;
+    //         function y() {
+    //             console.log(a, b);
+    //         }
+    //         y();
+    //     }
+    //     x();
+    // }
+    // z();
+
+</script>
+
+</html>
