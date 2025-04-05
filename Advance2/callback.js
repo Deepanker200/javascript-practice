@@ -3,7 +3,7 @@
 const cart = ["shoes", "t-shirts", "pants"]
 
 api.createOrder(cart, function () {
-    api.proceedToPayment(function () {
+    api.proceedToPayment(function () {      //There could be some error in these apis
         api.showOrderSummary(
             function () {
             api.updateWaller()
