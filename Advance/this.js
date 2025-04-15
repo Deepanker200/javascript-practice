@@ -17,7 +17,7 @@ function x() {
 //only in non-strict mode
 
 
-x();
+x();        //undefined
 
 //this keyword value depends on how the function is called
 window.x();
@@ -28,7 +28,7 @@ const student = {
     name: "Deepanker",
     printName: function () {
         // console.log(this);
-        console.log(this.name);
+        console.log(this.name);     //value of this is object
     }
 }
 
