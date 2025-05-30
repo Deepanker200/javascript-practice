@@ -32,7 +32,7 @@ JsUser.email="asdfsadsad";
 
 console.log(JsUser);
 
-// console.log(typeof Symbol("a"));
+console.log(typeof Symbol("a"));
 
 JsUser.greeting=function(){
     return("Hello JS User");
