@@ -14,7 +14,7 @@
 // console.log(a+b);
 
 // let c=NaN;
-// console.log(b);         //NaN
+console.log(b);         //NaN
 // console.log(typeof b);  //number
 // console.log(typeof c);
 
