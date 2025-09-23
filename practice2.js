@@ -14,7 +14,7 @@
 // console.log(a+b);
 
 let c=NaN;
-console.log(b);         //NaN
+// console.log(b);         //NaN
 // console.log(typeof b);  //number
 // console.log(typeof c);
 
@@ -29,7 +29,10 @@ let d="abcd2123"
 // console.log(2 % 2);
 
 // console.log("1" + 2);
+// console.log(typeof("1"+2));
+
 // console.log(1 + "2");
+// console.log(typeof(1 + "2"));
 // console.log("1" + "2");
 // console.log("1" + 2 + 2);
 // console.log(1 + 2 + "2");
@@ -45,7 +48,7 @@ let d="abcd2123"
 // console.log(""+);
 
 // let p=10;
-// console.log(++p);
+// console.log(p++);
 // console.log(p)
 
 //Post Fix and Pre Fix
@@ -59,5 +62,5 @@ console.log(`x:${x}, y:${y}`);
 let a = 3;
 const b = ++a;
 
-console.log(`a:${a}, b:${b}`);
+// console.log(`a:${a}, b:${b}`);
 // Expected output: "a:4, b:4"
