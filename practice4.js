@@ -11,4 +11,6 @@ console.log(typeof a);
 console.log(typeof id1);
 let c="10"
 let d=10;
-console.log(c==d);
+let e=10;
+console.log(c===d);
+console.log(d===e);

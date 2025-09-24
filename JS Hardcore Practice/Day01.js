@@ -39,3 +39,9 @@ let c= parseInt(a);
 let x = 5;
 let y = x++ + x++ + ++x;
 console.log(y, x);
+
+function check(x){
+    console.log(x++)
+    console.log(x);
+}
+check(5)
