@@ -21,4 +21,14 @@ const real_another_array=another_array.flat(Infinity);
 console.log(real_another_array);
 
 console.log(Array.from("Deepanker"));
+// It’s similar to:
+// "Deepanker".split("")
+
+// 👉 But Array.from() is more powerful — it can also apply a mapping function:
+
+// console.log(Array.from("Deepanker", ch => ch.toUpperCase()));
+// ["D", "E", "E", "P", "A", "N", "K", "E", "R"]
+
+
+
 console.log(Array.from({name:"JavaScript"}));  //Interesting Fact
