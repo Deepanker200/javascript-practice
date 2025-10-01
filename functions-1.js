@@ -80,4 +80,5 @@ let greet = function () {
     console.log("Hello");
 }
 
-multipleGreet(greet(), 100)
+// multipleGreet(greet(), 100)
+multipleGreet(greet, 10)

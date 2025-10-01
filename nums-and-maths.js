@@ -12,9 +12,9 @@
 // console.log(otherNumber.toPrecision(3));
 
 
-// const hundreds=10000000;
+const hundreds=10000000;
 // console.log(hundreds.toLocaleString());
-// console.log(hundreds.toLocaleString('en-IN'));
+console.log(hundreds.toLocaleString('en-IN'));
 
 // +++++++++++ Maths +++++++++++
 

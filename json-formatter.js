@@ -6,7 +6,7 @@ const course = {
 
 //course.courseInstructor
 
-const { courseInstructor: instructor } = course
+const { courseInstructor: instructor } = course     //Creating a variable with different name
 
 // console.log(courseInstructor);
 
