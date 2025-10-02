@@ -3,7 +3,7 @@ const cart=["shoes","pants","kurta"]
 const promise=createOrder(cart);      //returns orderId 
 console.log(promise);
 
-
+//Consumer
 promise.then(function(orderId){
     console.log(orderId);
     
@@ -13,7 +13,6 @@ promise.then(function(orderId){
     console.log(err.message);
 })
 
-//////
 //Producer
 function createOrder(cart){
     const pr= new Promise(function(resolve,reject){

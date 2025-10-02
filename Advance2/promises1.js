@@ -1,5 +1,6 @@
 const cart = ["shoes", "pants", "kurtas"]
 
+//Callback~ //passing a callback function
 createOrder(cart, function (orderId) {
     proceedToPayment(orderId)
 })
@@ -7,7 +8,8 @@ createOrder(cart, function (orderId) {
 
 
 const promise = createOrder(cart)
-
+//Promises
+//attaching a callback function and it only call once
 promise.then(function (orderId) {
     return proceedToPayment(orderId)
 })
@@ -24,6 +26,6 @@ promise.then(function (orderId) {
 
 // console.log(user);
 
-// user.then(function (data) {
+// user.then(function (data) {      //data is promiseResult
 //     console.log(data);
 // })

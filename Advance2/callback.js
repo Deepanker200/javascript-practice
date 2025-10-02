@@ -6,7 +6,7 @@ api.createOrder(cart, function () {
     api.proceedToPayment(function () {      //There could be some error in these apis
         api.showOrderSummary(
             function () {
-            api.updateWaller()
+            api.updateWallet()
         })
     })
 })

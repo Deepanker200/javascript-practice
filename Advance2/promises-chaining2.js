@@ -7,7 +7,7 @@ createOrder(cart)
     })
     .catch(function (err) {
         console.log(err.message);
-    })
+    })       //not necessary
     .then(function (orderId) {
         return proceedToPayment(orderId)
     })
@@ -23,8 +23,6 @@ createOrder(cart)
     })
 
 
-
-//////
 //Producer
 function createOrder(cart) {
     const pr = new Promise(function (resolve, reject) {
@@ -55,6 +53,8 @@ function proceedToPayment(orderId) {
 }
 
 function validateCart(cart) {
-    return false;
-    // return true;
+    // return false;
+    return true;
 }
+
+console.log("Called at first");
