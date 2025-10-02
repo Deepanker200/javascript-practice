@@ -59,13 +59,13 @@ const output = users.reduce(function (acc, curr) {
 console.log(output);
 
 
-// const output2 =
-//     users.filter((x) => x.age < 30)
-//         .map((x) => x.firstName)
+const output2 =
+    users.filter((x) => x.age < 30)
+        .map((x) => x.firstName)
 
 
 
-// console.log(output2);
+console.log("Output2 :",output2);
 
 
 const output3=users.reduce(function(acc,curr){

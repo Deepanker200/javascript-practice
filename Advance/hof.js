@@ -2,7 +2,7 @@
 //     console.log("Hello JavaScript");
 // }
 
-// function y(x){
+// function y(x){   x is callback function
 //     x()
 // }
 
