@@ -34,8 +34,8 @@ setTimeout(cb2,6000)
 
 //Recursive
 
-function repeat() {
-    console.log("Hello!");
-    setTimeout(repeat, 1000);
-}
-repeat();
+// function repeat() {
+//     console.log("Hello!");
+//     setTimeout(repeat, 1000);
+// }
+// repeat();
