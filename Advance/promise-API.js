@@ -21,5 +21,5 @@ Promise.any([p1,p2,p3])
 })
 .catch((err)=>{
     console.error(err);
-    console.log(err.errors);
+    console.log(err.errors);    //to get aggregate errors~ means when all promise fails
 })
