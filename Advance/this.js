@@ -2,7 +2,7 @@
 
 // this in global space
 
-console.log(this);
+console.log(this);      //globalObject - window, global(in Node.js)
 
 
 function x() {
@@ -20,25 +20,26 @@ function x() {
 x();        //undefined
 
 //this keyword value depends on how the function is called
-window.x();
+// window.x();
 
 
+//call,apply, bind
 
-const student = {
-    name: "Deepanker",
-    printName: function () {
+// const student = {
+//     name: "Deepanker",
+//     printName: function () {
         // console.log(this);
-        console.log(this.name);     //value of this is object
-    }
-}
+//         console.log(this.name);     //value of this is object
+//     }
+// }
 
-student.printName()
+// student.printName()
 
-const student2 = {
-    name: "Deepika"
-}
+// const student2 = {
+//     name: "Deepika"
+// }
 
-student.printName.call(student2);   //value of this=student2
+// student.printName.call(student2);   //value of this=student2
 
 //this inside arrow function
 
@@ -52,18 +53,18 @@ const obj = {
 obj.x()
 
 
-const obj2 = {
-    a: 20,
-    x:function(){
+// const obj2 = {
+//     a: 20,
+//     x:function(){
         //enclosing lexical context
-        const y=()=>{
-            console.log(this);
-        };
-        y()
-    },
-};
+//         const y=()=>{
+//             console.log(this);
+//         };
+//         y()
+//     },
+// };
 
-obj2.x();
+// obj2.x();
 
 
 //this inside DOM
