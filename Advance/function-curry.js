@@ -18,5 +18,10 @@ let multiply=function(x){
     }
 }
 
-let multiplyByTwo=multiply(2);
+let multiplyByTwo=multiply(2);      //multiply function called
+
+// multiplyByTwo = function(y) {
+//     console.log(2 * y);
+// }
+
 multiplyByTwo(3)
