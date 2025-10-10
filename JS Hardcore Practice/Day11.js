@@ -43,4 +43,5 @@ class Person {
 const person1 = new Person("Pankaj", "Verma", 888888888)
 const person2 = new Person("John", "Singh", 777777777)
 console.log(person1.fname);
-console.log(person1.getName());
+person1.getName();
+// console.log(person1.getName());
