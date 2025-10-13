@@ -15,3 +15,7 @@
     - setTimeouts
     - Iterators
     and many more
+
+# DSA for JS
+ - Sorting
+ - Hashing
