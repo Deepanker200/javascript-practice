@@ -19,3 +19,7 @@
 # DSA for JS
  - Sorting
  - Hashing
+
+# Obejct in JS
+ - Object.seal
+ - Object.freeze
