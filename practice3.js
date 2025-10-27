@@ -32,7 +32,7 @@ function sum2(a, b) {
 
 // console.log("null==NaN: ",null==NaN);
 // console.log('"">=null: ',"">=null);
-// console.log('"">=null: ',[]>=null);
+// console.log('[]>=null: ',[]>=null);
 // console.log('undefined=="": ',undefined=="");
 // console.log(""==null);
 // console.log('undefined<="": ',undefined<="");

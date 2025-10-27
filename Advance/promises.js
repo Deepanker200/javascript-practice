@@ -1,5 +1,5 @@
 const promiseOne = new Promise(function (resolve, reject) {
-    //Do an sysnc task
+    //Do an sync task
     //DB calls, cryptography,newtwork 
 
     setTimeout(function () {
