@@ -13,12 +13,12 @@
 
 // console.log(a+b);
 
-let c=NaN;
+let c = NaN;
 // console.log(b);         //NaN
 // console.log(typeof b);  //number
 // console.log(typeof c);
 
-let d="abcd2123"
+let d = "abcd2123"
 // console.log(typeof d)
 
 // console.log(2 + 2);
@@ -64,3 +64,5 @@ const b = ++a;
 
 // console.log(`a:${a}, b:${b}`);
 // Expected output: "a:4, b:4"
+
+console.log(3 + 4 * 5 % 3)

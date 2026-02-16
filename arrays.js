@@ -24,11 +24,11 @@ console.log(arr);
 
 const arr3=[1,5,6,10,2,80]
 console.log("Sliced array: ",arr3.slice(1,5));
-console.log(`Original array3: ${arr3}`);        //Doesn't change
+console.log(`Original array3: ${arr3}`);        //Doesn't change the original array
 
 
 const arr4=[90,10,2,45,88,55,100]
-console.log("Spliced array: ",arr4.splice(1,5,2));  //returns [10,2] and modifies the array
+console.log("Spliced array: ",arr4.splice(1,5,2));  //returns [10,2,45,88,55] and modifies the array
 console.log(`Original array4: ${arr4}`);
 
 const arr5=[90,10,18,2,44,25];
