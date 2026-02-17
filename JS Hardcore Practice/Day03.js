@@ -43,7 +43,7 @@ var c=function xyz(){
 // }));
 
 // var d=function(param1){
-//     return funtion xyz(){
+//     return function xyz(){
 
 //     }
 // }
