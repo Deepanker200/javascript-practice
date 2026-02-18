@@ -46,7 +46,7 @@ x();        //undefined
 const obj = {
     a: 10,
     x: () => {
-        console.log(this);
+        console.log(this);      //window object
     }
 }
 

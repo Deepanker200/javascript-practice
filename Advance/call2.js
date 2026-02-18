@@ -24,6 +24,7 @@ let name2 = {
 // name.printFullName.apply(name2,["Mumbai","Delhi"]);
 
 //bind: in bind it gives us the copy and to be called
+//bind returns a method
 
 let printMyName = printFullName2.bind(name2, "Mumbai", "Maharashtra");
 console.log(printMyName);

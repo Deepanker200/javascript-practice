@@ -43,7 +43,7 @@ dataPromise.then((res)=>console.log(res));
 // handlePromise()
 
 // function getData(){
-//     //JS engine will not wait for promise to be resolved
+    //JS engine will not wait for promise to be resolved
 //     p.then((res)=>console.log(res));
 
 //     console.log("Namaste JavaScript");   
