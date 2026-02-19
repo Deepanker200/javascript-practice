@@ -7,7 +7,7 @@ const promiseThree = new Promise(function (resolve, reject) {
         2000)
 })
 
-promiseThree.then(function (user) {
+promiseThree.then(function (user) {     //user is the object receiving after resolving the promise
     
     console.log(user);
     console.log("hello");

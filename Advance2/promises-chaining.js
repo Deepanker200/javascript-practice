@@ -13,7 +13,7 @@ promise.then(function(orderId){
     console.log(err.message);
 })
 
-//Producer
+//Producer- Only write return in basic function syntax
 function createOrder(cart){
     const pr= new Promise(function(resolve,reject){
         //create an Order
@@ -31,6 +31,8 @@ function createOrder(cart){
             resolve(orderId);
             },5000)
         }
+
+        // resolve("ERRORssss")
     });
 
     return pr;

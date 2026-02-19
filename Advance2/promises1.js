@@ -26,6 +26,6 @@ promise.then(function (orderId) {
 
 // console.log(user);
 
-// user.then(function (data) {      //data is promiseResult
+// user.then(function (data) {      //data is PromiseResult
 //     console.log(data);
 // })

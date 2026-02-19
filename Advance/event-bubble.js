@@ -14,6 +14,8 @@ document.querySelector("#child")
 },true);    //Event Capturing
 
 
+//First capturing happens then bubbling
+
 //Event Propagation
 
 // document.querySelector("#grandparent")
