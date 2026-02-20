@@ -5,7 +5,7 @@
 //     address:{city:"Delhi"}
 // }
 
-// // let shallowCopy=Object.assign({}.originalObj);
+// let shallowCopy=Object.assign({}.originalObj);
 
 // let shallowCopy={...originalObj}
 // let deepCopy=JSON.parse(JSON.stringify(originalObj))
