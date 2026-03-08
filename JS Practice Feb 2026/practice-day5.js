@@ -9,10 +9,10 @@ let originalObj = {
 let shallowCopy = { ...originalObj }
 let deepCopy = JSON.parse(JSON.stringify(originalObj))
 let dd=originalObj
-// originalObj.address.city = "Mumbai"
-dd.name="CONGO"
+originalObj.address.city = "Mumbai"
+originalObj.name="CONGO"
 
-// console.log(shallowCopy);
+console.log(shallowCopy);
 // console.log(deepCopy);
 // console.log(dd);
-console.log(originalObj)
+// console.log(originalObj)
